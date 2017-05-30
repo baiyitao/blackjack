@@ -1,0 +1,44 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--************************************************************************-->
+<!--* Blackjack                                                            *-->
+<!--*                                                                      *-->
+<!--* Copyright 2001-2004 by Mike Hall                                     *-->
+<!--* Please see http://www.brainjar.com for terms of use.                 *-->
+<!--************************************************************************-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>BrainJar.com: Blackjack</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+
+  <script src="js/obj.js"></script>
+  <script src="js/main.js"></script>
+
+
+</head>
+<body>
+
+<!-- Header. -->
+<div id="header">
+  <h2>Blackjack</h2>
+</div>
+
+
+
+
+<form id="controls" action="">
+  <div id="controlsArea">
+    <div id="credits" class="textBox dollars">&nbsp;</div>
+    <div id="default" class="textBox dollars">&nbsp;</div>
+    <input id="deal"      class="button" type="reset" value="Deal"         onclick="startRound();return false;" />
+
+    <br />
+    <input id="hit"       class="button" type="reset" value="Hit"        onclick="playerHit();return false;"    />
+    <input id="stand"     class="button" type="reset" value="Stand"      onclick="startDealer();return false;"  />
+  </div>
+</form>
+
+
+</body>
+</html>
